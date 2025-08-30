@@ -140,10 +140,9 @@ export default function Home() {
                     <a href="https://www.instagram.com/"
                         target="_blank"
                         rel="noopener noreferrer" className="hover:underline">Instagram</a>
-                    <a href="/Contact"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="hover:underline">Contact</a>
+                    <Link to="/contact" className="hover:underline">
+                        Contact
+                    </Link>
                 </div>
             </footer>
         </div>
